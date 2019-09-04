@@ -7,48 +7,73 @@ import java.util.Iterator;
  * @author Xiangxing Liu
  */
 public class Deque <T> implements Iterable<T> {
-    // construct an empty deque
+    /**
+     * Construct an empty deque
+     */
     public Deque() {
 
     }
 
-    // is the deque empty?
+    /**
+     * Is Empty?
+     * @return if empty == true
+     */
     public boolean isEmpty() {
         return false;
     }
 
-    // return the number of Ts on the deque
+    /**
+     * Return the number of items on the deque
+     * @return number of Elements
+     */
     public int size() {
         return -1;
     }
 
-    // add the element to the front
+    /**
+     * Add the element to the head
+     * @param element input
+     */
     public void addFirst(T element) {
 
     }
 
-    // add the T to the back
+    /**
+     * Add the element to the back
+     * @param element input
+     */
     public void addLast(T element) {
 
     }
 
-    // remove and return the element from the front
+    /**
+     * Remove the element to the head
+     * @return head
+     */
     public T removeFirst() {
         return null;
     }
 
-    // remove and return the element from the back
+    /**
+     * Remove the element to the back
+     * @return back
+     */
     public T removeLast() {
         return null;
     }
 
 
-    // return an iterator over elements in order from front to back
+    /**
+     * Return an iterator over elements in order from front to back
+     * @return iterator
+     */
     public Iterator<T> iterator() {
         return null;
     }
 
-    // unit testing (required)
+    /**
+     * Testing
+     */
     public static void main(String[] args) {
 
     }
