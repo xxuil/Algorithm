@@ -1,4 +1,4 @@
-package com.learn.algo.datatype;
+package com.learn.algo.datatype.impl;
 
 import java.util.Iterator;
 
